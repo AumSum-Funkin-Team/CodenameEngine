@@ -14,8 +14,8 @@
 	- [x] Cap zoom in & out
 	- [x] Events (including Camera Movement)
 	- [x] Metadata Editing
-	- [ ] Custom Notetypes
-	- [ ] Reorderable Strumlines
+	- [x] Custom Notetypes
+	- [x] Reorderable Strumlines
 	- [ ] Step based zooming
 	- [ ] Add Undo to more actions
 	- [ ] New Chart Button
@@ -41,6 +41,12 @@
 - [ ] New Switch Mod menu
 - [x] Port shader camera stuff over to new flixel fork
 - [ ] Add note offset
+- [x] Custom classes
+	- [ ] Proper super overrides (FlxText_HSX doesn't allow overrides for update because of this)
+	- [ ] Custom Class extending Custom Classes
+	- [ ] Statics on Custom Classes
+	- [ ] Fix Bugs
+- [x] Full 3D support via stages files
 - [x] Dialogue
 - [ ] Finish Base Game port
 - [x] Add credits
@@ -50,12 +56,6 @@
 
 ## `v1.1.0`
 - [ ] Charter Waveforms (maybe in v1.1.0, dont wanna slow shit down)
-- [ ] Custom classes
-	- [ ] Proper super overrides (FlxText_HSX doesn't allow overrides for update because of this)
-	- [ ] Custom Class extending Custom Classes
-	- [ ] Statics on Custom Classes
-	- [ ] Fix Bugs
-- [ ] Full 3D support via stages files
 - [ ] Multithread sprites and assets loading (for faster load times) ?
 - [ ] Stage Editor
 - [ ] Optimize flxanimate isOnScreen
